@@ -2,7 +2,7 @@
 using namespace std;
 
 bool Primo(int numero) {
-  if (numero == 0 || numero == 1){
+  if (numero == 0 || numero == 1 || numero == 4){
     return false;
   }
   for (int i = 2; i < numero / 2; i++) {
